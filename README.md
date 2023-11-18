@@ -32,7 +32,7 @@ If you want to be able to edit the audio files on Windows you'll need to have FF
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
 	cd RhythmHeavenAdvance
 	```
-	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip) (not recommended).
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenAdvance/archive/refs/heads/main.zip) (not recommended).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
 4. Compile.
 	```batch
