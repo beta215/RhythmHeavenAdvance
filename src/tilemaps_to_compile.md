@@ -6,6 +6,7 @@ gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
 gfx/RhythmGames/NinjaBodyguard/CB28A4_bodyguard_prologue_map.bin
+gfx/RhythmGames/Remix8/c5badc_tweezers_remix8_bg_map.bin
 gfx/GameSelect/CC9854_gameselect_bg_map.bin
 gfx/Common/CCCA5C_common_tiles.bin
 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin

@@ -2,7 +2,28 @@
 .dw c1a47c_remix8_intro_obj |0x80000000
 
 .org 0x08C5BADC
-.dw c5badc_tweezers_remix8_obj |0x80000000
+.dw c5badc_tweezers_remix8_bg | 0x80000000
+
+.org 0x08C5C3A0
+.dw c5badc_tweezers_remix8_bg_map_dat | 0x8000000
+
+.org 0x08C5C3A0+4
+.dw c5badc_tweezers_remix8_bg_map_rle | 0x8000000
+
+.org 0x08C5C3A0+8
+.dw c5badc_tweezers_remix8_bg_map_rle_end - c5badc_tweezers_remix8_bg_map_rle
+
+.org 0x088E8C42 ; palette hot fix
+.dw 0x7fff
+
+.org 0x08C5C3A8 ; rle size hot fix
+.byte 0x3A ; hahahahahaha stupid hotfix but i've been trying to fix this for
+; the past like 6 hours and it just doesn't go away so I GIVE UP!
+; if anyone wants to try and fix it well, it has to do something the with the map from 0x600e000 overflowing
+; into 0x600f000, this value changes the RLE size to what makes it less broken then
+; changes the palette to be make it invisible so that i just camouflage the issue
+; that's NOT a good viable solution because if anyone wants to add custom background it would just
+; immediately show, even if it's just 0x00 tiles with palette 0
 
 .org 0x088B3004
 .import "gfx/RhythmGames/Remix8/8B3004_assembly0.bin"
