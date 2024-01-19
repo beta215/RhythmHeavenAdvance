@@ -6286,7 +6286,7 @@ for the electric fish.[;
 #WRITE(RtPtr, $9F7668)
 // 0x805b35c
 //[style=gold][linestyle=5]音楽が おわる前に 星でいっぱいにしてネ！[;
-[style=gold][linestyle=5]Let's try to reach the stars before the music ends![;
+[style=gold][linestyle=5]Let's reach the stars before the music ends![;
 
 #WRITE(RtPtr, $9F7F68)
 // 0x805b38c
