@@ -15,6 +15,8 @@
 
 .org 0x088E8C42 ; palette hot fix
 .dw 0x7fff
+.org 0x088E8B82 ; palette hot fix (remix 8, wow isn't that funny)
+.dw 0x7fff
 
 .org 0x08C5C3A8 ; rle size hot fix
 .byte 0x3A ; hahahahahaha stupid hotfix but i've been trying to fix this for
