@@ -7,6 +7,9 @@ build/*
 *.rle
 *.dat
 
+# Build tools
+ffmpeg.exe
+
 # Different emulator-generated files
 *.sav
 *.sgm
@@ -24,6 +27,7 @@ temp_*/
 
 # Shaffy's personal folder to not clutter the project.
 ShaffyOnly/*
+crystaltile2/
 
 # OAM Editor leftovers...
 info.txt
