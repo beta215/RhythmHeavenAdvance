@@ -62,6 +62,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/RhythmTweezers/tweezers.asm"
 .include "gfx/RhythmGames/NinjaBodyguard/bodyguard.asm"
 .include "gfx/RhythmGames/NinjaReincarnate/descendant.asm"
+.include "gfx/RhythmGames/TheBonDance/bondance.asm"
 .include "gfx/RhythmGames/TheBonOdori/bonodori.asm"
 .include "gfx/RhythmGames/TossTeam/tossteam.asm"
 .include "gfx/RhythmGames/TramPauline/tramp.asm"

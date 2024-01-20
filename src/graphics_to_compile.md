@@ -29,6 +29,7 @@ gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj
 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg
 gfx/RhythmGames/NinjaBodyguard/CB28A4_bodyguard_prologue
 gfx/RhythmGames/NinjaReincarnate/C24200_ninjadescendant_intro_obj
+gfx/RhythmGames/TheBonDance/BE3E20_bondance_intro_obj
 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
 gfx/RhythmGames/BunnyHop/C1F214_bunnyhop_intro_obj
