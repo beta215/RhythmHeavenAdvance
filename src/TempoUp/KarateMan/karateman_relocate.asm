@@ -49,6 +49,4 @@ karate_gfx_tables:
 .dw 0x089df140
 .dw karate_man_tempoup_gfx_table | 0x8000000
 
-; .align 4
-; karateman_extra_beatscript_main:
-; .import "src/TempoUp/KarateMan/karateman_extra_beatscript_main.bts"
+.include "src/TempoUp/KarateMan/karate_man.bs"

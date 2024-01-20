@@ -362,6 +362,9 @@ HorseMachineUnusedName:
 TheClappyTrioTestName:
 .sjis "Ｔｈｅ　Ｃｌａｐｐｙ　Ｔｒｉｏ　（Ｔｅｓｔ）"
 
+KarateManTempoUpName:
+.sjis "Ｋａｒａｔｅ　Ｍａｎ　（Ｔｅｍｐｏ　Ｕｐ！）"
+
 ; --- END TEXT ---
 
 .align 4
@@ -974,6 +977,11 @@ DebugMenuEntries:
 .dw TheClappyTrioTestScript | 0x8000000
 ; -- Text Code
 .dw TheClappyTrioTestName | 0x8000000
+
+; -- Engine Code
+; .dw scene_karate_man | 0x8000000
+; -- Text Code
+; .dw KarateManTempoUpName | 0x8000000
 
 .dw 0x00000000
 .dw 0x00000000

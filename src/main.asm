@@ -1,6 +1,8 @@
 ; This file imports all of the data to the final ROM,
 ; and does some binhacks that you can toggle using the flags.
 
+.include "src/beatscript/beatscript.inc"
+
 .include "src/options.asm"
 
 .gba
@@ -104,10 +106,13 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 ; .include "sfx/SpaceDance/space.asm"
 
-.include "src/DebugMenu/debugmenu.asm"
 .include "src/TempoUp/KarateMan/karateman.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
+
+; .include "src/scene_warning.asm"
+
+.include "src/DebugMenu/debugmenu.asm"
 
 .close
