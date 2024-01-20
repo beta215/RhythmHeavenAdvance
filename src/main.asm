@@ -111,7 +111,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
 
-; .include "src/scene_warning.asm"
+; .include "src/Disclamer/scene_disclamer.asm"
 
 .include "src/DebugMenu/debugmenu.asm"
 

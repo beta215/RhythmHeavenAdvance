@@ -66,6 +66,6 @@
 
 .include "src/TempoUp/KarateMan/karateman_relocate.asm"
 
-; .include "src/scene_warning_relocate.asm"
+; .include "src/Disclamer/scene_disclamer_relocate.asm"
 
 .include "src/DebugMenu/debugmenu_relocate.asm"
