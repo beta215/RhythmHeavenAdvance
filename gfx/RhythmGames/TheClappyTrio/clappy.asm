@@ -4,6 +4,9 @@
 .org 0x088E9D1A
 .import "gfx/RhythmGames/TheClappyTrio/8E9D1A_assembly0.bin"
 
+.org 0x088E9EF8
+.dw X8E9D34_assembly1
+
 .org 0x088AFA14
 .import "gfx/RhythmGames/TheClappyTrio/8AFA14_assembly0.bin"
 

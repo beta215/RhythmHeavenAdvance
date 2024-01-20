@@ -17,3 +17,7 @@ X8AFA4A_assembly3:
 .align 4
 BF16B4_clappy_intro_tiles:
 .import "gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.cdat"
+
+.align 2
+X8E9D34_assembly1:
+.import "gfx/RhythmGames/TheClappyTrio/8E9D34_assembly1.bin"
