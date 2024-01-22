@@ -18,3 +18,4 @@ gfx/EndlessGames/MannequinFactory/C34478_slapface_bg_map.bin
 gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
 gfx/Perfect/CCC138_perfect_map.bin
 gfx/RhythmTest/C6A638_rtest_bg_map.bin
+gfx/Disclamer/disclamer_bg_map.bin

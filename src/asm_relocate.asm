@@ -105,6 +105,59 @@ AltMainMusicSequence_Hook:
 	bl 0x0800bf7c
 	pop r15
 	
+getTempo:
+	push r14,r1-r2
+	
+	ldr r1,=0x03007BD0
+	ldrb r2,[r1]
+	cmp r2,0x69
+	beq @@return
+	
+	mov r0, 0x02
+	bl 0x08001980
+	cmp r0,0x00
+	beq @@lowerrangevalues
+	b @@higerrangevalues
+	
+@@lowerrangevalues:
+	mov r0, 0x31
+	bl 0x08001980
+	mov r1, 0x10
+	add r0, r0, r1
+	b @@return
+@@higerrangevalues:
+	mov r0, 0x60
+	bl 0x08001980
+	mov r1, 0xF0
+	add r0, r0, r1
+	b @@return
+@@return:
+	lsl r0, r0, 0x10
+	lsr r5, r0, 0x10
+	pop r1-r2
+	pop r15
+	
+getText:
+	push r14
+
+	push r0,r2
+	
+	ldr r0,=0x03007BD0
+	ldrb r2,[r0]
+	cmp r2,0x69
+	beq @@return
+	
+	ldr r1,=ap_text
+	
+@@return:
+	pop r0,r2
+	
+	add r4, r0, 0x0
+	add r5, r1, 0x0
+	
+	pop r15
+
+	
 ; Funny:
 	; push r14
 	; ldr r0, =0x00000000
@@ -120,4 +173,7 @@ AltMainMusicSequence_Hook:
 
 .include "src/lz77hack_relocate.asm"
 .include "src/debug_relocate.asm"
+
+.include "src/Disclamer/code_disclamer_relocate.asm"
+
 .endarea

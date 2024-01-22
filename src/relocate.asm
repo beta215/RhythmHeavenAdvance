@@ -57,6 +57,7 @@
 .include "gfx/Common/common_relocate.asm"
 .include "gfx/Perfect/perfect_relocate.asm"
 .include "gfx/Results/results_relocate.asm"
+.include "gfx/Disclamer/disclamer_relocate.asm"
 
 .include "sfx/DrumLessons/drumlessons_relocate.asm"
 ;
@@ -66,6 +67,6 @@
 
 .include "src/TempoUp/KarateMan/karateman_relocate.asm"
 
-; .include "src/Disclamer/scene_disclamer_relocate.asm"
+.include "src/Disclamer/scene_disclamer_relocate.asm"
 
 .include "src/DebugMenu/debugmenu_relocate.asm"

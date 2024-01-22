@@ -6,6 +6,7 @@ build/*
 *.cdat
 *.rle
 *.dat
+*.agp
 
 # Build tools
 ffmpeg.exe

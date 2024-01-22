@@ -79,3 +79,4 @@ gfx/DrumLessons/C4FC44_drumlessons_lesson_bg
 gfx/Perfect/CCC138_perfect_bg
 gfx/Results/CD4F58_results_obj
 gfx/MedalCorner/CD8FA4_medalcorner_obj
+gfx/Disclamer/disclamer_bg
