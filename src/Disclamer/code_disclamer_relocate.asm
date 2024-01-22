@@ -29,8 +29,6 @@ disclamer_scene_stop:
 	bx lr
 .pool
 
-.notice tohex(disclamer_scene_stop)
-
 .align 4
 disclamer_scene_init_gfx3:
 	push {lr}
@@ -57,9 +55,6 @@ disclamer_scene_init_gfx3:
 	pop {r0}
 	bx r0
 .pool
-
-.notice tohex(disclamer_scene_init_gfx3)
-
 
 .align 4
 disclamer_scene_init_gfx2:
@@ -129,7 +124,6 @@ disclamer_scene_start:
 	
 	ldr r0,=disclamer_text ; please don't sell bootlegs
 	ldr r1,=0x03007BB0
-.notice tohex(copy_loop)
 copy_loop:
 	ldrb r2, [r0]
 	strb r2, [r1]

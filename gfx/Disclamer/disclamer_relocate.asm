@@ -52,5 +52,3 @@ struct disclamer_gfx_table
 	.dw 0x03004D64
 	.dw 0x20
 endstruct
-
-.notice tohex(disclamer_gfx_table)
