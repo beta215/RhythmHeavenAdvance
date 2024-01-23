@@ -80,19 +80,38 @@ OptionsDebugSequence_Hook:
 	bl OptionsDebugSequence
 	bl 0x08000584
 	pop r15
+	
+.notice tohex(AltMainMusicSequence)
+
+; byte is 0x00 button is pressed
 
 AltMainMusicSequence:
 	push r14,r1-r3
-	ldr r1, =0x04000130
+	ldr r1, =0x04000130 ; get input
 	ldr r2,[r1]
-	ldr r3,=0x00000204
-	tst r2,r3
-	bne @@return
-	; ldr r0, =0x08A9B8AC
+	ldr r3,=0x00000204 ; check if input is L + Select
+	tst r2,r3 ; test if it's pressed
+	
+	ldr r3,=0xe007B10 
+	ldrb r1,[r3]
+	
+	bne @@checkBit ; if not, check bit
+	
+	mov r2,0x01
+	xor r1, r2 ; flip save bit
+	ldrb r2,[r3]
+	strb r1,[r3]
+	
+@@checkBit:
+	cmp r1, 0x00
+	
+	beq @@return ; if it's not set then don't jump 
+	
+	; ldr r0, =0x08A9B8AC ; idfk
 	; bl 0x08002634
-	mov r0, 0x98
+	mov r0, 0x98 ; set tempo
 	bl 0x0800bdf8
-	ldr r0, =0x08a9b44c
+	ldr r0, =0x08a9b44c ; set music to gameselect one
 @@return:
 	pop r14,r1-r3
 	mov r15,r14
