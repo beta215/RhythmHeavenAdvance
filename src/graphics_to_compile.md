@@ -41,6 +41,7 @@ gfx/RhythmGames/Fireworks/BEF660_fireworks_obj
 gfx/RhythmGames/WizardWaltz/C33640_wizard_obj
 gfx/RhythmGames/RAPMEN/C82710_rapmen_obj
 gfx/RhythmGames/RAPMEN/C1F4B4_rapmen_intro_obj
+gfx/RhythmGames/RAPWOMEN/C209CC_rapwomen_intro_obj
 gfx/EndlessGames/MrUpbeat/C702D0_upbeat_obj
 gfx/EndlessGames/MannequinFactory/C34478_slapface_bg
 gfx/RhythmGames/Remix1/c04fec_remix1_intro_obj

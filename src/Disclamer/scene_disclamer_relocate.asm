@@ -5,7 +5,7 @@ disclamer_text:
 ap_text: ; "piracy" lmao
 .ascii "great job, you removed the disclamer!"
 .byte 0x0A
-.ascii "now do not make bootlegs!!!"
+.ascii "now do not sell bootlegs!!!"
 
 ; Script
 script script_scene_disclamer

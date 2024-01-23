@@ -31,6 +31,7 @@
 .include "gfx/RhythmGames/Fireworks/fireworks_relocate.asm"
 .include "gfx/RhythmGames/WizardWaltz/wizard_relocate.asm"
 .include "gfx/RhythmGames/RAPMEN/rapmen_relocate.asm"
+.include "gfx/RhythmGames/RAPWOMEN/rapwomen_relocate.asm"
 .include "gfx/RhythmGames/Remix1/remix1_relocate.asm"
 .include "gfx/RhythmGames/Remix2/remix2_relocate.asm"
 .include "gfx/RhythmGames/Remix3/remix3_relocate.asm"
