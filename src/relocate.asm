@@ -41,6 +41,7 @@
 .include "gfx/RhythmGames/Remix7/remix7_relocate.asm"
 .include "gfx/RhythmGames/Remix8/remix8_relocate.asm"
 .include "gfx/RhythmGames/SpaceDance/spacedance_relocate.asm"
+.include "gfx/RhythmGames/CosmicDance/cosmicdance_relocate.asm"
 .include "gfx/RhythmGames/Spaceball/spaceball_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/Studio/studio_relocate.asm"

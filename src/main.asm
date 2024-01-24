@@ -1,7 +1,8 @@
 ; This file imports all of the data to the final ROM,
 ; and does some binhacks that you can toggle using the flags.
 
-.include "src/beatscript/beatscript.inc"
+.include "src/Macros/beatscript.inc"
+.include "src/Macros/sample.inc"
 
 .include "src/options.asm"
 
@@ -83,6 +84,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/Remix7/remix7.asm"
 .include "gfx/RhythmGames/Remix8/remix8.asm"
 .include "gfx/RhythmGames/SpaceDance/spacedance.asm"
+.include "gfx/RhythmGames/CosmicDance/cosmicdance.asm"
 .include "gfx/RhythmGames/Spaceball/spaceball.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
