@@ -54,6 +54,7 @@ gfx/RhythmGames/Remix7/c173c0_remix7_intro_obj
 gfx/RhythmGames/Remix8/c1a47c_remix8_intro_obj
 gfx/RhythmGames/Remix8/c5badc_tweezers_remix8_bg
 gfx/RhythmGames/SpaceDance/CE296C_spacedance_obj
+gfx/RhythmGames/SpaceDance/c24f60_spacedance_intro_obj
 gfx/RhythmGames/CosmicDance/BEAF78_cosmicdance_intro_obj
 gfx/RhythmGames/TramPauline/C30910_tramp_intro_obj
 gfx/GameSelect/CC9854_gameselect_bg

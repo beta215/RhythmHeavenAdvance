@@ -1,6 +1,6 @@
-; .align 4
-; c24f60_spacedance_intro_obj:
-; .import "gfx/RhythmGames/SpaceDance/c24f60_spacedance_intro_obj.cdat"
+.align 4
+c24f60_spacedance_intro_obj:
+.import "gfx/RhythmGames/SpaceDance/c24f60_spacedance_intro_obj.cdat"
 
 .align 4
 CE296C_spacedance_obj:
