@@ -6,6 +6,11 @@ beba58_night1_intro:
 beba58_night1_intro_pal:
 .import "gfx/RhythmGames/NightWalk/beba58_night1_intro.agp"
 
+.align 4
+C52420_nightwalk_obj:
+.import "gfx/RhythmGames/NightWalk/C52420_nightwalk_obj.cdat"
+
+
 .align 2
 X8ADECE_assembly1:
 .import "gfx/RhythmGames/NightWalk/8ADECE_assembly1.bin"

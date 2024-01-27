@@ -1,5 +1,6 @@
 # List files to run with DSDecmp EXCLUDING the .bin file extension. for example, for "gfx/RhythmGames/NightWalk/beba58_night1_intro.bin" you would list "gfx/RhythmGames/NightWalk/beba58_night1_intro"
 gfx/RhythmGames/NightWalk/beba58_night1_intro
+gfx/RhythmGames/NightWalk/C52420_nightwalk_obj
 gfx/RhythmGames/KarateMan/BE0480_karateman_tiles
 gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro
 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles

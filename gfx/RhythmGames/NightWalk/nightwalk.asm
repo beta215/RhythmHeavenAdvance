@@ -1,6 +1,10 @@
 .org 0x08beba58
 .dw beba58_night1_intro | 0x80000000
 
+
+.org 0x08C52420
+.dw C52420_nightwalk_obj | 0x80000000
+
 .org 0x089EA9BC
 .dw beba58_night1_intro_pal | 0x8000000
 
