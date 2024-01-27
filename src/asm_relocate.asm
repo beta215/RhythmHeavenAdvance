@@ -80,8 +80,6 @@ OptionsDebugSequence_Hook:
 	bl OptionsDebugSequence
 	bl 0x08000584
 	pop r15
-	
-.notice tohex(AltMainMusicSequence)
 
 ; byte is 0x00 button is pressed
 
