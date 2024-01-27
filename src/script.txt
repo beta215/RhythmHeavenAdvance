@@ -5,7 +5,7 @@
 // Shaffy / Butter 🧈 (somethingAccurate) / Cash Banooka / Captain Stage / vincells
 // 
 // Managed by Shaffy
-// (C)2022-2023 Advance Team
+// (C)2022-2024 Advance Team
 
 #VAR(tbl, TABLE)
 #ADDTBL("src/sjis_2.tbl", tbl)
@@ -9142,7 +9142,7 @@ You have an accurate biological clock![;
 #WRITE(RtPtr, $A19A74)
 // 0x805cd44
 //電波時計なみの正確さ！！[;
-Incredible! You're as precise as an atomic clock![;
+You're as precise as an atomic clock![;
 
 // Unused Drum Lesson 1
 
