@@ -979,9 +979,9 @@ DebugMenuEntries:
 .dw TheClappyTrioTestName | 0x8000000
 
 ; -- Engine Code
-; .dw scene_karate_man | 0x8000000
+.dw scene_karate_man | 0x8000000
 ; -- Text Code
-; .dw KarateManTempoUpName | 0x8000000
+.dw KarateManTempoUpName | 0x8000000
 
 .dw 0x00000000
 .dw 0x00000000
@@ -1204,5 +1204,3 @@ TheClappyTrioTestScript:
 .dw 0x00000000
 ; This stangely looks like a size entry, I have no idea how it works...
 .dw 0x0000FFFF
-
-

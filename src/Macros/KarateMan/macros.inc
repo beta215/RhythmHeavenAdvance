@@ -1,6 +1,8 @@
 
 /* ------------------------ Beatscript Labels: Karate Man ------------------------ */
 
+; Game Engine
+.definelabel karate_man_engine, 0x089df044
 
 ; Game Events
 .definelabel RESET_BG_FACE,     		0x00
@@ -23,27 +25,27 @@
 
 ; Load Game: Karate Man
 .macro load_karate_man
-    load_game 0x089df044, 0 ; karate_man_engine 
+    load_game karate_man_engine, 0 ; karate_man_engine 
 .endmacro
 
 ; Load Game: Karate Man (Unused Faces)
 .macro load_karate_man_unused
-    load_game 0x089df044, 1 ; karate_man_engine 
+    load_game karate_man_engine, 1 ; karate_man_engine 
 .endmacro
 
 ; Load Game: Karate Man (Start with Serious Mode Active)
 .macro load_karate_man_serious
-    load_game 0x089df044, 2 ; karate_man_engine 
+    load_game karate_man_engine, 2 ; karate_man_engine 
 .endmacro
 
 ; Load Game: Karate Man 2
 .macro load_karate_man_2
-    load_game 0x089df044, 3 ; karate_man_engine 
+    load_game karate_man_engine, 3 ; karate_man_engine 
 .endmacro
 
 ; Load Game: Karate Man (Tempo Up!)
 .macro load_karate_man_tempo_up
-    load_game 0x089df044, 4 ; karate_man_engine 
+    load_game karate_man_engine, 4 ; karate_man_engine 
 .endmacro
 
 

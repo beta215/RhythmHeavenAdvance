@@ -1,8 +1,7 @@
 ; This file imports all of the data to the final ROM,
 ; and does some binhacks that you can toggle using the flags.
 
-.include "src/Macros/beatscript.inc"
-.include "src/Macros/sample.inc"
+.include "src/includes.asm"
 
 .include "src/options.asm"
 

@@ -27,40 +27,6 @@
 
 .definelabel END_OF_CRITERIA, NULL
 
-; Music/Sound Players
-.definelabel MUSIC_PLAYER_0,        0
-.definelabel MUSIC_PLAYER_1,        1
-.definelabel MUSIC_PLAYER_2,        2
-.definelabel SFX_PLAYER_0,          3
-.definelabel SFX_PLAYER_1,          4
-.definelabel SFX_PLAYER_2,          5
-.definelabel SFX_PLAYER_3,          6
-.definelabel SFX_PLAYER_4,          7
-.definelabel SFX_PLAYER_5,          8
-.definelabel SFX_PLAYER_6,          9
-.definelabel SFX_PLAYER_7,          10
-.definelabel SFX_PLAYER_8,          11
-.definelabel SFX_PLAYER_9,          12
-.definelabel DEFAULT_SOUND_PLAYER,  255
-
-; Music Tracks
-.definelabel MIDI_TRACK_0,  (1 << 0)
-.definelabel MIDI_TRACK_1,  (1 << 1)
-.definelabel MIDI_TRACK_2,  (1 << 2)
-.definelabel MIDI_TRACK_3,  (1 << 3)
-.definelabel MIDI_TRACK_4,  (1 << 4)
-.definelabel MIDI_TRACK_5,  (1 << 5)
-.definelabel MIDI_TRACK_6,  (1 << 6)
-.definelabel MIDI_TRACK_7,  (1 << 7)
-.definelabel MIDI_TRACK_8,  (1 << 8)
-.definelabel MIDI_TRACK_9,  (1 << 9)
-.definelabel MIDI_TRACK_10, (1 << 10)
-.definelabel MIDI_TRACK_11, (1 << 11)
-.definelabel MIDI_TRACK_12, (1 << 12)
-.definelabel MIDI_TRACK_13, (1 << 13)
-.definelabel MIDI_TRACK_14, (1 << 14)
-.definelabel MIDI_TRACK_15, (1 << 15)
-
 ; RGB555 Colors
 .definelabel BLACK, 0x0000
 .definelabel WHITE, 0x7FFF
@@ -436,7 +402,7 @@ endstruct
 
 
 ; [RIQ] Enable Pause Menu
-.macro enable_pause, enable
+.macro enable_pause_menu, enable
     run 0x0801db05, enable
 .endmacro
 
@@ -551,3 +517,8 @@ endstruct
 .macro set_game_fade_in_time, time
     run 0x08017569, time
 .endmacro
+
+; ------------ RANDOM FUNCTIONS
+
+.definelabel stop_all_soundplayers, 0x08002839
+.definelabel beatscript_disable_loops, 0x0800BCE5

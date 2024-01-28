@@ -2,6 +2,8 @@
 
 .org 0x08D34940
 
+; Graphics Relocate
+
 .include "gfx/Font/font_relocate.asm"
 .include "gfx/RhythmGames/RatRace/ratrace_relocate.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk_relocate.asm"
@@ -61,14 +63,16 @@
 .include "gfx/Results/results_relocate.asm"
 .include "gfx/Disclamer/disclamer_relocate.asm"
 
+; SFX Relocate
+
 .include "sfx/DrumLessons/drumlessons_relocate.asm"
 ;
 ;
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
 
-.include "src/TempoUp/KarateMan/karateman_relocate.asm"
+.include "src/TempoUp/KarateMan/karateman_relocate.asm" ; move this somewhere
 
-.include "src/Disclamer/scene_disclamer_relocate.asm"
+.include "src/Disclamer/scene_disclamer_relocate.asm" ; move this somewhere
 
-.include "src/DebugMenu/debugmenu_relocate.asm"
+.include "src/DebugMenu/debugmenu_relocate.asm" ; move this somewhere
