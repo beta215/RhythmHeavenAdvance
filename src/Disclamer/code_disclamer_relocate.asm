@@ -138,29 +138,40 @@ copy_loop:
 
 .align 4	
 disclamer_scene_update:
-	push {r4, lr}
+	push {r4-r6, lr}
 	ldr r4, =0x030046a4
+	ldr r6, =0xe007B11
 	ldr r1, [r4]
-	; ldr r0, [r1]
-	; cmp r0, 0x0
-	; beq branch_0801e0f2
-	; ldr r0, =0x03004afc
-	; ldrh r0, [r0]
-	; cmp r0, 0x0
-	; bne branch_0801e0e6
+	
+	ldrb r5,[r6]
+	cmp r5, 0x69
+	bne @@forcedToWatch
+	
+	ldr r0, [r1]
+	cmp r0, 0x0
+	beq branch_0801e0f2
+	ldr r0, =0x03004afc
+	ldrh r0, [r0]
+	cmp r0, 0x0
+	bne branch_0801e0e6
+	
+@@forcedToWatch:
 	ldr r0, [r1, 0x4]
 	sub r0, 0x1
 	str r0, [r1, 0x4]
 	cmp r0, 0x0
 	bne branch_0801e0f2
 branch_0801e0e6:
+	mov r2,0x69
+	strb r2,[r6]
+	
 	mov r0, 0x0
 	bl 0x0800bd04
 	ldr r1, [r4]
 	mov r0, 0x0
 	str r0, [r1]
 branch_0801e0f2:
-	pop {r4}
+	pop {r4-r6}
 	pop {r0}
 	bx r0
 .pool

@@ -19,7 +19,7 @@ gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
 gfx/RhythmGames/MarchingOrders/C6C658_marching_obj
 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
-gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles
+gfx/RhythmGames/TempoUp/KarateMan/karateman_tempo_up_obj
 gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
 gfx/RhythmGames/QuizShow/C02A34_quizshow_intro_obj

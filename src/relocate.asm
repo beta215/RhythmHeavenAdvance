@@ -8,6 +8,7 @@
 .include "gfx/RhythmGames/RatRace/ratrace_relocate.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk_relocate.asm"
 .include "gfx/RhythmGames/KarateMan/karateman_relocate.asm"
+.include "gfx/RhythmGames/TempoUp/KarateMan/karateman_relocate.asm"
 .include "gfx/RhythmGames/TheClappyTrio/clappy_relocate.asm"
 .include "gfx/RhythmGames/TheSnappyTrio/snappy_relocate.asm"
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm_relocate.asm"
@@ -71,7 +72,7 @@
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
 
-.include "src/TempoUp/KarateMan/karateman_relocate.asm" ; move this somewhere
+.include "src/TempoUp/KarateMan/karateman_relocate.asm"
 
 .include "src/Disclamer/scene_disclamer_relocate.asm" ; move this somewhere
 

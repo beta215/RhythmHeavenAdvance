@@ -43,8 +43,8 @@ define_gameplay_scene scene_karate_man_skipped_practice, sub_scene_karate_man_sk
 
 script script_karate_man_prologue
     set_game_fade_in_time 8
-    load_game 0x089ea6a0, 0 ; karate_man_prologue_engine 
-    run 0x08002839, 0 ; stop_all_soundplayers
+    load_game karate_man_prologue_engine, 0 ; karate_man_prologue_engine 
+    run stop_all_soundplayers, 0 ; stop_all_soundplayers
     rest 24
     play_sfx 0x08A9D918 ; s_jingle_karate_seqData
     run 0x08045605, 1

@@ -48,6 +48,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
+.include "gfx/RhythmGames/TempoUp/KarateMan/karateman.asm"
 .include "gfx/RhythmGames/TheClappyTrio/clappy.asm"
 .include "gfx/RhythmGames/TheSnappyTrio/snappy.asm"
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm.asm"
@@ -107,8 +108,6 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 ; .include "sfx/Remix5/remix5.asm"
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 ; .include "sfx/SpaceDance/space.asm"
-
-.include "src/TempoUp/KarateMan/karateman.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"

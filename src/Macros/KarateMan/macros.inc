@@ -3,6 +3,7 @@
 
 ; Game Engine
 .definelabel karate_man_engine, 0x089df044
+.definelabel karate_man_prologue_engine, 0x089ea6a0
 
 ; Game Events
 .definelabel RESET_BG_FACE,     		0x00
