@@ -1,4 +1,4 @@
-; --- START TEXT ---
+; Debug Menu Engine English Text
 ConcertName:
 .sjis "Ｃｏｎｃｅｒｔ"
 
@@ -326,8 +326,8 @@ EndingExtraViewingsName:
 SaveDataClearName:
 .sjis "Ｓａｖｅ　Ｄａｔａ　Ｃｌｅａｒ"
 
-TanookiMonkeyName:
-.sjis "Ｔａｎｏｏｋｉ　＆　Ｍｏｎｋｅｙ"
+TanukiMonkeyName:
+.sjis "Ｔａｎｕｋｉ　＆　Ｍｏｎｋｅｙ"
 
 SamuraiDrum1Name:
 .sjis "Ｕｎｕｓｅｄ　Ｄｒｕｍ　Ｌｅｓｓｏｎ　１"
@@ -365,8 +365,7 @@ TheClappyTrioTestName:
 KarateManTempoUpName:
 .sjis "Ｋａｒａｔｅ　Ｍａｎ　（Ｔｅｍｐｏ　Ｕｐ！）"
 
-; --- END TEXT ---
-
+; Debug Menu Entries Table
 .align 4
 DebugMenuEntries:
 ; -- Engine Code
@@ -919,9 +918,9 @@ DebugMenuEntries:
 .dw SaveDataClearName
 
 ; -- Engine Code
-.dw TanookiMonkeyScript | 0x8000000
+.dw TanukiMonkeyScript | 0x8000000
 ; -- Text Code
-.dw TanookiMonkeyName | 0x8000000
+.dw TanukiMonkeyName | 0x8000000
 
 ; -- Engine Code
 .dw SamuraiDrum1Script | 0x8000000
@@ -983,20 +982,20 @@ DebugMenuEntries:
 ; -- Text Code
 .dw KarateManTempoUpName | 0x8000000
 
-.dw 0x00000000
-.dw 0x00000000
+.dw NULL
+.dw NULL
 ; --- END
 
-; Tanooki & Monkey Debug Load Sequence
+; Tanuki & Monkey Debug Load Sequence
 
 ; Entrypoint Script
-TanookiMonkeyEntrypoint:
+TanukiMonkeyEntrypoint:
 .import "src/DebugMenu/entrypoint.bin"
-.dw TanookiMonkeyBeatScript | 0x8000000
-TanookiMonkeyScript:
+.dw TanukiMonkeyBeatScript | 0x8000000
+TanukiMonkeyScript:
 ; Load Function
 .dw 0x0801D86D
-.dw TanookiMonkeyEntrypoint | 0x8000000
+.dw TanukiMonkeyEntrypoint | 0x8000000
 .dw 0x0801D8D9
 .dw 0x00000000
 .dw 0x00000000
@@ -1004,7 +1003,7 @@ TanookiMonkeyScript:
 ; This stangely looks like a size entry, I have no idea how it works...
 .dw 0x0000FFFF
 ; Beatscript Script
-TanookiMonkeyBeatScript:
+TanukiMonkeyBeatScript:
 ; Load Drum Game
 .dw 0x00000204
 .dw 0x08017189
