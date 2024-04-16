@@ -25,17 +25,18 @@
 //this funky game,[l
 //the RHYTHM TEN-[l
 //GOKU world!![;
-Welcome to the[l
-funky world of[l
-Rhythm Heaven Advance![;
+Welcome to the
+¡Bienvenido al[l
+fantástico mundo[l
+de Rhythm Tengoku![;
 
 #WRITE(RtPtr, $A32CA4)
 // 0x805df88
 //リズム天国へ ようこそ！[l
 //ファンキーなひとときを[l
 //楽しんでくださいネ![;
-I hope you enjoy your time[l
-with this game![;
+¡Ojalá disfrutes este[l
+gran juego![;
 
 #WRITE(RtPtr, $A33424)
 // 0x805dfcc
@@ -43,7 +44,7 @@ with this game![;
 //お会いしましょう！[l
 //see you![;
 [l
-Well, see you later![;
+¡Nos vemos![;
 
 // Welcome! Speech
 
@@ -53,44 +54,44 @@ Well, see you later![;
 //それは潜在的に[l
 //みんなが持っている[l
 //ものなんです。[;
-Sense of rhythm--[l
-Everyone has one in some[l
-form or fashion.[;
+Sentido del ritmo--[l
+Todo el mundo lo tiene[l
+de alguna manera u otra.[;
 
 #WRITE(RtPtr, $A33B74)
 // 0x805e03c
 //リズム感は[l
 //意識していれば[l
 //どんどん良くなります。[;
-And with some mindfulness,[l
-that sense of rhythm can[l
-be sharpened like any skill.[;
+Y con un poco de concentración,[l
+el sentido del ritmo puede ser agudizado[l
+como cualquier otra habilidad.[;
 
 #WRITE(RtPtr, $A33BB0)
 // 0x805e070
 //さて、まずは[l
 //あなたのリズム感を[l
 //かるく見てみましょう。[;
-Why don't we take a[l
-quick look at your[l
-sense of rhythm?[;
+¿Por qué no echamos[l
+un vistazo a tu[l
+sentido del ritmo?[;
 
 #WRITE(RtPtr, $A33C70)
 // 0x805e0a8
 //どうでしたか？[l
 //納得のいく結果が[l
 //出せましたか？[;
-How did you do? Did you get[l
-a score you're happy with?[;
+¿Cómo te ha ido?[l
+¿Obtuviste un puntaje bueno?[;
 
 #WRITE(RtPtr, $A33CAC)
 // 0x805e0d8
 //潜在的なリズム感は[l
 //訓練によって[l
 //成長するんです。[;
-Well, your sense of[l
-rhythm can only grow[l
-with some practice, so...[;
+Bueno, tu sentido del[l
+ritmo puede mejorar con[l
+un poco de práctica, así que...[;
 
 #WRITE(RtPtr, $A33CE8)
 // 0x805e10c
@@ -98,104 +99,104 @@ with some practice, so...[;
 //リズミカルなゲームで[l
 //楽しくリズム感を[l
 //みがいてみてください。[;
-Leap into some of these[l
-games and you might[l
-just find it getting[l
-sharper and sharper![;
+¡Comencemos con los[l
+juegos! Mejorarás[l
+a medida que te vayas[l
+divirtiendo.[;
 
 #WRITE(RtPtr, $A33D24)
 // 0x805e15c
 //では、またあとで[l
 //お会いしましょう。[;
-With that, I'll see you 'round![;
+¡Nos vemos! Diviértete.[;
 
 // Rhythm Test
 
 #WRITE(RtPtr, $A40CD4)
 // 0x805f078
 //あなたのリズム感をしらべましょう[;
-Let's find out how good your rhythm is.[;
+Veamos cuán bueno es tu ritmo.[;
 
 #WRITE(RtPtr, $A40CF8)
 // 0x805f09c
 //これから、３回のテストをします[;
-We're going to do three tests.[;
+Vamos a hacer tres pruebas.[;
 
 #WRITE(RtPtr, $A40D1C)
 // 0x805f0bc
 //では、１回目です[;
-Here's the first rhythm test.[;
+Esta es la primer prueba.[;
 
 #WRITE(RtPtr, $A3E150)
 // 0x805eed8
 //音に合わせて、Ａボタンを押してください[;
-Press [A_button] in time with the signal.[;
+Presiona [A_button] al ritmo de la señal.[;
 
 #WRITE(RtPtr, $A3E510)
 // 0x805ef00
 //あと半分[;
-You're halfway there![;
+¡Ya estás a medio camino![;
 
 #WRITE(RtPtr, $A40D88)
 // 0x805f0d0
 //２回目のテスト、いきます[;
-Let's move on to the second test.[;
+Pasemos a la segunda prueba.[;
 
 #WRITE(RtPtr, $A3E72C)
 // 0x805ef18
 //「ゼロ」と同時に、Ａボタンを押してください[;
-Press [A_button] when the timer hits "0".[;
+Presiona [A_button] cuando el contador marque "0".[;
 
 #WRITE(RtPtr, $A3E8F4)
 // 0x805ef44
 //音が消えるところは、心でカウントしてください[;
-When there's no sound, count[l
-to yourself to keep the beat.[;
+Cuando no haya sonido, sigue[l
+contando para mantener el ritmo.[;
 
 #WRITE(RtPtr, $A3EAE0)
 // 0x805ef74
 //では、測定をはじめます[;
-Now, let's start measuring.[;
+Ahora, midamos tu rendimiento.[;
 
 #WRITE(RtPtr, $A40DF4)
 // 0x805f0ec
 //さいごのテストです[;
-This is the final test.[;
+Esta es la prueba final.[;
 
 #WRITE(RtPtr, $A40178)
 // 0x805ef8c
 //音に合わせて、Ａボタンを押してください[;
-Press [A_button] in time with the signal.[;
+Presiona [A_button] a tiempo con la señal.[;
 
 #WRITE(RtPtr, $A402E0)
 // 0x805efb4
 //そのまま、キープしつづけて下さい[;
-Keep it up like this![;
+¡Sigue así![;
 
 #WRITE(RtPtr, $A40CB0)
 // 0x805efd8
 //だいぶ、努力が必要かも…[;
-You'll have to put in a lot of effort...[;
+Tendrás que hacer mucho esfuerzo...[;
 
 #WRITE(RtPtr, $A40CAC)
 // 0x805eff4
 //もう少し、がんばりましょう。[;
-You'll need to try a little harder.[;
+Inténtalo un poco más.[;
 
 #WRITE(RtPtr, $A40CA8)
 // 0x805f014
 //人並みの正確さをお持ちです。[;
-You're as accurate as any person could be.[;
+Eres tan preciso como cualquier otra persona.[;
 
 #WRITE(RtPtr, $A40CA4)
 // 0x805f034
 //正確な体内時計をお持ちです！[;
-You have an accurate biological clock![;
+¡Tienes un reloj biológico muy preciso![;
 
 #WRITE(RtPtr, $A40CA0)
 // 0x805f054
 //すごい！　電波時計なみの正確さ！！[;
-Incredible! You're as precise as an atomic clock![;
+¡Increíble! ¡Eres preciso como un reloj atómico![;
 
 // Concert
 
@@ -210,8 +211,8 @@ Incredible! You're as precise as an atomic clock![;
 //[;
 [size=medium][linesize=medium][style=bold][linestyle=4]Drum Girls LIVE!  [l
 [l
-[size=small][linesize=small][style=gold][linestyle=5]♪　Night Walk[l
-[size=small][linesize=small][style=gold][linestyle=5]♪　Space Dance[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Paseo Nocturno[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Bailarines Cósmicos[l
 [size=small][linesize=small][style=gold][linestyle=5]♪　Honey Sweet Angel of Love[l
 [l
 [;
@@ -227,8 +228,8 @@ Incredible! You're as precise as an atomic clock![;
 //[;
 [size=medium][linesize=medium][style=bold][linestyle=4]Drum Boys LIVE![l
 [l
-[size=small][linesize=small][style=gold][linestyle=5]♪　The Clappy Trio[l
-[size=small][linesize=small][style=gold][linestyle=5]♪　Tap Trial[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　El Trío Aplaudidorl
+[size=small][linesize=small][style=gold][linestyle=5]♪　Claqué Simiesco[l
 [size=small][linesize=small][style=gold][linestyle=5]♪　WISH - Can't Wait for You[l
 [l
 [;
@@ -245,26 +246,27 @@ Incredible! You're as precise as an atomic clock![;
 //[;
 [size=medium][linesize=medium][style=bold][linestyle=4]Drum Samurai's[l
 [size=medium][linesize=medium][style=bold][linestyle=4][linealign=right]Band LIVE! [l
-[size=small][linesize=small][style=gold][linestyle=5][linealign=left]♪　Cosmic Dance[l
-[size=small][linesize=small][style=gold][linestyle=5]♪　The Snappy Trio[l
-[size=small][linesize=small][style=gold][linestyle=5]♪　Tap Trial 2[l
+[size=small][linesize=small][style=gold][linestyle=5][linealign=left]♪　Bailarines Cósmicos[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　El Trío Enérgico[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Claqué Simiesco 2[l
 [l
 [;
 
 #WRITE(RtPtr, $9CEA20)
 // 0x8052464
 //プロデューサー「うちで、ガンバってみない？」[;
-The producer says... "You should play at our place, too!"[;
+El productor dice... "¡Deberías tocar en nuestro bar!"[;
 
 #WRITE(RtPtr, $9CEA1C)
 // 0x8052494
 //オーナー「キミ、なかなか スジあるヨ」[;
-The owner says... "You've got great skills, you know!"[;
+El dueño dice... "¡Tienes muy buenas habilidades!"[;
 
 #WRITE(RtPtr, $9CEA18)
 // 0x80524bc
 //おばちゃん「またつぎ、がんばりなよ！」[;
-The cleaner says... "I know you can do it, keep it up!"[;
+El de limpieza dice... "¡Sé que puedes hacerlo,[l
+sigue intentando!"[;
 
 // Options
 
@@ -273,8 +275,8 @@ The cleaner says... "I know you can do it, keep it up!"[;
 //[color=pink][linestyle=3][linealign=center]ホントに消すの？[l
 //[color=peach][linestyle=1][linesize=large]　　　　　　　はい[l
 //　　　　　　　いいえ[;
-[color=pink][linestyle=3][linealign=center]Are you sure?[l
-[color=peach][linestyle=1]　　  　　 Yes[l
+[color=pink][linestyle=3][linealign=center]¿Estás seguro?[l
+[color=peach][linestyle=1]　　  　　 Si[l
 　　 　 No[;
 
 #WRITE(RtPtr, $9CFB18)
@@ -282,9 +284,9 @@ The cleaner says... "I know you can do it, keep it up!"[;
 //[color=pink][linestyle=3][linealign=center]データのクリア[l
 //[color=peach][linestyle=1][linesize=large]いままでの記録を全部けして、はじめから[l
 //やりなおします。よく考えてネ！[;
-[color=pink][linestyle=3][linealign=center]Clear Data[l
-[linealign=center][color=peach]This will delete [color=gray]all[color=peach] of your data and start[l
-[color=peach]you over from the beginning. [color=gray]Think wisely![color=peach][;
+[color=pink][linestyle=3][linealign=center]Borrar Datos[l
+[linealign=center][color=peach]Esto borrará [color=gray]all[color=peach] todos tu datos y[l
+[color=peach]comenzarás de cero. [color=gray]¡Piénsalo bien![color=peach][;
 
 #WRITE(RtPtr, $9CFB14)
 // 0x80549fc
